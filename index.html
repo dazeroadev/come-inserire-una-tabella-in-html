@@ -1,0 +1,75 @@
+<!--
+
+#### TABLE
+
+1. table > table, creazione della tabella
+
+2. thead > table head
+3. tbody > table body
+4. tfoot > table footer
+
+5. tr > table row
+6. th > table head cell
+7. td > table data cell
+
+8. colspan > column span // estensione/unione di colonne
+9. rowspan > row span // estensione/unione di righe
+
+10. border="1"
+
+-->
+
+<h3>Tabella</h3>
+
+<table border="1">
+	<thead>
+		<th>Nome</th>
+		<th>Cognome</th>
+		<th>Età</th>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Mario</td>
+			<td>Rossi</td>
+			<td>30</td>
+		</tr>
+		<tr>
+			<td>Laura</td>
+			<td>Bianchi</td>
+			<td>25</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="3">Totale persone: 2</td>
+		</tr>
+	</tfoot>
+</table>
+
+<h3>Unione di colonne</h3>
+
+<table border="1">
+		<tr>
+			<td>Cella 1</td>
+			<td colspan="2">Cella 2</td>
+			<td>Cella 3</td>
+		</tr>
+		<tr>
+			<td>Cella 1</td>
+			<td>Cella 2</td>
+			<td>Cella 3</td>
+			<td>Cella 4</td>
+		</tr>
+</table>
+
+<h3>Unione di righe</h3>
+
+<table border="1">
+	<tr>
+		<td rowspan="2">Cella 1</td>
+		<td>Cella 2</td>
+	</tr>
+	<tr>
+		<td>Cella 3</td>
+	</tr>
+</table>

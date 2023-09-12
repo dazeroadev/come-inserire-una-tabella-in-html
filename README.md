@@ -1,1 +1,1 @@
-# come-si-inserisce-una-tabella-in-html
+# come-inserire-una-tabella-in-html

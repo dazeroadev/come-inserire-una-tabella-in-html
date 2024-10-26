@@ -1,4 +1,4 @@
-# Come inserire una tabella in HTML
+# Come inserire una tabella in HTML
 
 Ciao! Mi chiamo Camilla e sviluppo da quando i siti web si facevano con Adobe Flash⚡dal lontano 2008.
 
